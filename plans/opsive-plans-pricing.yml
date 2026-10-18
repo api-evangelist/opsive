@@ -33,3 +33,22 @@ plans:
   - 30-minute consultation
   limits:
   - Professional subscription required per seat when organization's combined gross revenue and funding reaches $200,000 USD over past 12 months
+x-canonical:
+  generated: '2026-10-18'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Standard
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Professional
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
