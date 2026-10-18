@@ -1,0 +1,37 @@
+generated: '2026-10-18'
+method: searched
+source: https://opsive.com/
+note: Opsive sells Unity assets (plugins/extensions) through the Unity Asset Store. These are not traditional software packages distributed through package registries like npm or PyPI, but rather Unity packages (.unitypackage files) sold as digital products.
+packages:
+- name: Behavior Designer Pro
+  registry: unity-asset-store
+  url: https://opsive.com/assets/behavior-designer-pro/
+  language: C#
+  official: true
+  version: null
+  published: null
+  note: Unity asset for AI behavior trees, sold through Opsive website and Unity Asset Store
+- name: Ultimate Character Controller
+  registry: unity-asset-store
+  url: https://opsive.com/assets/ultimate-character-controller/
+  language: C#
+  official: true
+  version: null
+  published: null
+  note: Unity character controller system
+- name: State Designer
+  registry: unity-asset-store
+  url: https://opsive.com/assets/state-designer/
+  language: C#
+  official: true
+  version: null
+  published: null
+  note: Unity state machine system
+- name: Ultimate Inventory System
+  registry: unity-asset-store
+  url: https://opsive.com/assets/ultimate-inventory-system/
+  language: C#
+  official: true
+  version: null
+  published: null
+  note: Unity inventory system

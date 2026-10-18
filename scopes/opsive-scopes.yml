@@ -1,0 +1,4 @@
+generated: '2026-10-18'
+method: none
+note: Opsive provides Unity scripting APIs (C# libraries) for game development, not web APIs with OAuth authentication. No OAuth scopes are applicable.
+scopes: []

@@ -1,0 +1,6 @@
+generated: '2026-10-18'
+method: none
+name: Opsive rate limits
+note: Opsive provides Unity scripting APIs (C# libraries) for game development within the Unity engine. These are not web APIs with HTTP rate limits.
+limit_count: 0
+limits: []

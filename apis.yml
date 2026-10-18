@@ -1,23 +1,149 @@
 aid: opsive
+
 name: Opsive
-description: 'Opsive is a company surfaced via the API Evangelist harvest backlog (source: kin-score-markets)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Opsive is a Unity game-development tools company that builds and sells editor assets for the Unity engine, including Behavior Designer
+  Pro (behavior trees and AI), the Ultimate Character Controller, Third Person Controller and UFPS character controllers, the Ultimate Inventory
+  System and State Designer, plus add-on packs (movement, senses, tactical, formations, agility, climbing, swimming, multiplayer). Products are
+  sold through opsive.com and the Unity Asset Store, with per-product documentation, a forum and Discord community. Opsive does not publish a
+  public web API.
+
 url: https://raw.githubusercontent.com/api-evangelist/opsive/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:kin-score-markets
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-18 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-18'
+
 modified: '2026-10-18'
+
 tags:
 - Company
-apis: []
+- Game Development
+- Unity
+- Artificial Intelligence
+- Behavior Trees
+- Character Controllers
+- Inventory Systems
+- Developer Tools
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://opsive.com/wp-content/uploads/2026/06/logo.svg
+
 common:
+- type: Plans
+  url: plans/opsive-plans-pricing.yml
+- type: Spectral
+  url: rules/opsive-rules.yml
+- type: Vocabulary
+  url: vocabulary/opsive-vocabulary.yml
+- type: CLI
+  url: cli/opsive-cli.yml
+- type: ChangeLog
+  url: changelog/opsive-changelog.yml
+- type: Conformance
+  url: conformance/opsive-conformance.yml
+- type: LLMsTxt
+  url: llms/opsive-llms.txt
+- type: WellKnown
+  url: well-known/opsive-well-known.yml
+- type: Hosts
+  url: hosts/opsive-hosts.yml
+- type: IntegrationEdges
+  url: integrations/opsive-integration-edges.yml
+- type: SDKs
+  url: packages/opsive-packages.yml
+- type: Packages
+  url: packages/opsive-packages.yml
+- type: GettingStarted
+  url: https://opsive.com/support/documentation/state-designer/getting-started
+- type: DomainSecurity
+  url: security/opsive-domain-security.yml
 - type: Website
-  url: https://opsive.com
+  url: https://opsive.com/
+- type: Documentation
+  url: https://opsive.com/support/documentation/ultimate-character-controller/
+- type: Support
+  url: https://opsive.com/support/
+- type: Forum
+  url: https://opsive.com/forum/
+- type: Blog
+  url: https://opsive.com/news/
+- type: Login
+  url: https://opsive.com/account/
+- type: TermsOfService
+  url: https://opsive.com/terms-conditions/
+- type: Twitter
+  url: https://twitter.com/Opsive
+- type: Facebook
+  url: https://www.facebook.com/Opsive/
+- type: Discord
+  url: https://discord.gg/SD6SPWf7hW
+- type: Marketplace
+  url: https://assetstore.unity.com/publishers/2308
+
+apis:
+- name: Opsive State Designer Scripting API
+  description: In-engine C# scripting API for Opsive's State Designer Unity asset. The StateMachine component is the main code entry point for
+    a State Designer graph, used by other scripts to control execution, inspect runtime state, respond to lifecycle changes, access Shared Variables,
+    or save and restore the graph. This is a Unity library API, not a network web API; no HTTP base URL or machine-readable contract is published.
+  humanURL: https://opsive.com/support/documentation/state-designer/api/
+  tags:
+  - Unity
+  - Scripting
+  - State Machines
+  properties:
+  - type: Documentation
+    url: https://opsive.com/support/documentation/state-designer/api/
+  aid: opsive:opsive-state-designer-scripting-api
+- aid: opsive:opsive-api
+  name: Opsive API
+  description: 'Opsive API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-18); not
+
+    the provider''s own document.'
+  humanURL: https://docs.unity.com/en-us/unity-cli/use-unity-cli
+  baseURL: https://unity.com
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/opsive-openapi-generated.yml
+    x-provenance: generated
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website opsive.com verified (title "Unity AI, Character Controller & Inventory Tools | Opsive"); pointers taken from links on the site
+    and probed. No public API, privacy policy page or docs root found; github.com/Opsive not linked from site (unverified ownership) so omitted.
+  evidence:
+  - url: https://opsive.com/
+    status: 200
+  - url: https://opsive.com/support/
+    status: 200
+  - url: https://opsive.com/support/documentation/ultimate-character-controller/
+    status: 200
+  - url: https://opsive.com/forum/
+    status: 200
+  - url: https://opsive.com/news/
+    status: 200
+  - url: https://opsive.com/account/
+    status: 200
+  - url: https://opsive.com/terms-conditions/
+    status: 200
+  - url: https://opsive.com/support/documentation/
+    status: 404
+x-enrichment:
+  date: '2026-10-18'
+  status: enriched
+  artifacts_added: 26
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=deepseek,regulatory=anthropic

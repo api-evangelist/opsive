@@ -1,0 +1,5 @@
+generated: '2026-10-18'
+method: none
+format: none
+note: Opsive provides Unity scripting APIs (C# libraries) for game development within the Unity engine. These are not web APIs with HTTP error responses. Error handling is through C# exceptions and Unity's debugging system.
+problems: []

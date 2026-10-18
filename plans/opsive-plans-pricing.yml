@@ -1,0 +1,35 @@
+generated: '2026-10-18'
+method: searched
+source: https://opsive.com/assets/behavior-designer-pro/
+name: Opsive pricing
+audience: business-product
+pricing_basis: tiered-subscription
+published: true
+delivery:
+  delivery: managed
+  evidence: Digital assets sold through Opsive website and Unity Asset Store
+  free_edition: null
+  managed_tier: Professional
+  open_source_license: null
+plans:
+- name: Standard
+  description: Standard license for Behavior Designer Pro
+  price: 145
+  price_text: '145'
+  features:
+  - Behavior Designer Pro asset
+  - Standard support
+  - Updates through Asset Store
+  limits: []
+- name: Professional
+  description: Professional license with additional features
+  price: 399
+  price_text: '399'
+  features:
+  - Git access
+  - Priority support
+  - Feature requests
+  - Immediate updates
+  - 30-minute consultation
+  limits:
+  - Professional subscription required per seat when organization's combined gross revenue and funding reaches $200,000 USD over past 12 months

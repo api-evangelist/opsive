@@ -1,0 +1,131 @@
+generated: '2026-10-18'
+method: searched
+source:
+- https://zapier.com/apps/opsive/integrations
+- https://n8n.io/integrations/opsive/
+- https://composio.dev/toolkits/opsive
+- https://monid.ai/tools/opsive
+checked:
+- https://assetstore.unity.com/publishers/2308
+- https://composio.dev/toolkits/opsive
+- https://monid.ai/tools/opsive
+- https://n8n.io/integrations/opsive/
+- https://opsive.com/
+- https://opsive.com/support/documentation/state-designer/integrations.md
+- https://zapier.com/apps/opsive/integrations
+summary: null
+marketplace_apps: []
+edges:
+- partner: null
+  partner_name: Animal Controller
+  name: Animal Controller
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/animal-controller.md
+  operations: []
+- partner: null
+  partner_name: Atlas
+  name: Atlas
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/atlas.md
+  operations: []
+- partner: null
+  partner_name: Behavior Designer Pro
+  name: Behavior Designer Pro
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/behavior-designer-pro.md
+  operations: []
+- partner: null
+  partner_name: Curvy Splines
+  name: Curvy Splines
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/curvy-splines.md
+  operations: []
+- partner: null
+  partner_name: Dialogue System
+  name: Dialogue System
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/dialogue-system.md
+  operations: []
+- partner: null
+  partner_name: DOTS Survivors
+  name: DOTS Survivors
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/dots-survivors.md
+  operations: []
+- partner: null
+  partner_name: Essential Kit
+  name: Essential Kit
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/essential-kit.md
+  operations: []
+- partner: null
+  partner_name: Feel
+  name: Feel
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/feel.md
+  operations: []
+- partner: null
+  partner_name: Juicy Actions
+  name: Juicy Actions
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/juicy-actions.md
+  operations: []
+- partner: null
+  partner_name: Love/Hate
+  name: Love/Hate
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/love-hate.md
+  operations: []
+- partner: null
+  partner_name: PlayMaker
+  name: PlayMaker
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/playmaker.md
+  operations: []
+- partner: null
+  partner_name: Quest Machine
+  name: Quest Machine
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/quest-machine.md
+  operations: []
+- partner: null
+  partner_name: Sensor Toolkit 2
+  name: Sensor Toolkit 2
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/sensor-toolkit-2.md
+  operations: []
+- partner: null
+  partner_name: Simple Waypoint System
+  name: Simple Waypoint System
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/simple-waypoint-system.md
+  operations: []
+- partner: null
+  partner_name: Ultimate Character Controller
+  name: Ultimate Character Controller
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/ultimate-character-controller.md
+  operations: []
+- partner: null
+  partner_name: Ultimate Inventory System
+  name: Ultimate Inventory System
+  type: claimed
+  direction: unknown
+  evidence: https://opsive.com/support/documentation/state-designer/integrations/ultimate-inventory-system.md
+  operations: []
+templates: []

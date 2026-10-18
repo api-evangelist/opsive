@@ -1,0 +1,4 @@
+generated: '2026-10-18'
+method: none
+note: Opsive provides Unity scripting APIs (C# libraries) for game development within the Unity engine. These are not web APIs requiring authentication schemes like API keys, OAuth, or HTTP authentication.
+schemes: []

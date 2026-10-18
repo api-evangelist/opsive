@@ -1,0 +1,28 @@
+generated: '2026-10-18'
+method: searched
+source: https://opsive.com/terms-conditions/
+scope_note: >-
+  Opsive's site publishes one legal page, Terms & Conditions (HTTP 200, fetched 2026-10-18). Its footer
+  and the terms page link no privacy policy, DPA, subprocessor list, trust or accessibility page, and the
+  pre-flight legal-page scan found no candidate lines for any privacy or regulatory signal. The only
+  catalog signal the Terms address is age (a self-representation by the buyer). Data subject rights,
+  retention, subprocessors, residency, incident notification and the rest are not covered by any page
+  Opsive publishes, so they are left out here rather than recorded as findings.
+signals:
+  age_assurance:
+    url: https://opsive.com/terms-conditions/
+    section: Online Store Terms
+    mechanism: self-declaration
+    evidence:
+    - source: https://opsive.com/terms-conditions/
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: >-
+        By agreeing to these Terms and Conditions, you represent that you are at least the age of majority
+        in your state or province of residence, or that you are the age of majority in your state or
+        province of residence and you have given us your consent to allow any of your minor dependents to
+        use this site.
+    note: >-
+      The user only attests to their age by agreeing to the Terms. Opsive describes no age verification
+      or estimation. Minors may use the site only through a consenting adult (age-of-majority) account
+      holder.

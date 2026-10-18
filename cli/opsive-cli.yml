@@ -1,0 +1,25 @@
+generated: '2026-10-18'
+method: searched
+generator: extract-docs-artifacts.py (deepseek)
+source: https://docs.unity.com/en-us/cloud
+sources:
+- https://docs.unity.com/en-us/cloud
+- https://docs.unity.com/en-us/unity-cli
+- https://docs.unity.com/en-us/mps-sdk
+- https://docs.unity.com/en-us/asset-transformer-sdk/2026.1
+install:
+- method: Unity Hub automatic installation
+  command: The Unity Hub now automatically installs the Unity CLI.
+- method: Standalone binary installation
+  command: Install the Unity CLI standalone binary and use it to install Editors, add modules, and open projects from a terminal.
+commands:
+- group: Editors and modules management
+  commands:
+  - install Editors
+  - add modules
+  - open projects
+  purpose: Use the Unity CLI to install and manage Unity Editors and modules from the command-line
+binary: Unity CLI
+name: Unity command-line interface (CLI)
+docs: https://docs.unity.com/en-us/unity-cli
+note: The Unity command-line interface (CLI) is experimental. The features and documentation might change in an upcoming release.

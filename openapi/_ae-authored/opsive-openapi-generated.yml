@@ -1,0 +1,55 @@
+openapi: 3.1.0
+info:
+  title: Opsive API
+  version: '2026-10-18'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-18: 2 operation(s) read from 1 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; Opsive has published no machine-readable contract that the pipeline
+    could find. Engine: anthropic.'
+  x-evidence-tiers:
+    code-example: 1
+    documentation: 1
+    pages-with-code: 1
+    pages-read: 1
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-18'
+  x-generator: generate-contract-from-docs.py
+  x-engine: anthropic
+  x-sources:
+  - https://docs.unity.com/en-us/unity-cli/use-unity-cli
+servers:
+- url: https://unity.com
+paths:
+  /install.sh:
+    get:
+      operationId: get_install_sh
+      tags:
+      - Install
+      summary: GET /install.sh
+      x-source: https://docs.unity.com/en-us/unity-cli/use-unity-cli
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl -fsSL https://unity.com/install.sh | bash \n After the script completes, verify the CLI is available by running unity --version\
+          \ . If the command isn't found, add the install directory to your shell's PATH or reopen your terminal. \n On Linux, the script installs\
+          \ the binary to ~/.local/bin/unity , which is on PATH by default on most distributions. Re-running the installer migrates an install\
+          \ fro"
+  /linux/keys/public:
+    get:
+      operationId: get_linux_keys_public
+      tags:
+      - Linux
+      summary: GET /linux/keys/public
+      x-source: https://docs.unity.com/en-us/unity-cli/use-unity-cli
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+tags:
+- name: Install
+- name: Linux

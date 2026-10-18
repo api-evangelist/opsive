@@ -1,0 +1,13 @@
+generated: '2026-10-18'
+method: searched
+source: https://opsive.com/support/documentation/state-designer/api.md
+note: Opsive provides Unity scripting APIs (C# libraries) for game development. These are not web APIs with HTTP conventions like pagination, rate limiting, or idempotency keys.
+idempotency:
+  coverage: na
+  note: Unity scripting APIs are not HTTP-based web APIs
+pagination:
+  style: none
+  note: Unity scripting APIs are not HTTP-based web APIs
+reversibility:
+  coverage: na
+  note: Unity scripting APIs are not HTTP-based web APIs with write operations that can be reversed
