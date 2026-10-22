@@ -13,6 +13,7 @@ checked:
 - https://opsive.com/
 - https://opsive.com/support/documentation/state-designer/integrations.md
 - https://zapier.com/apps/opsive/integrations
+- unity/integrations/unity-integration-edges.yml
 summary: null
 marketplace_apps: []
 edges:
@@ -128,4 +129,23 @@ edges:
   direction: unknown
   evidence: https://opsive.com/support/documentation/state-designer/integrations/ultimate-inventory-system.md
   operations: []
+- partner_name: Unity (own)
+  partner: unity
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: 'https://assetstore.unity.com/packages/tools/visual-scripting/behavior-designer-pro-3-dots-powered-behavior-trees-368344 '
+  mirror_of: unity/integrations/unity-integration-edges.yml
+  apps:
+  - Behavior Designer Pro
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: Unity Verified Solutions
+  publisher_verified:
+  - Unity Verified Solution
 templates: []
